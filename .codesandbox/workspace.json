@@ -1,20 +1,28 @@
 {
-  "responsive-preview": {
-    "Mobile": [
-      320,
-      675
-    ],
-    "Tablet": [
-      1024,
-      765
-    ],
-    "Desktop": [
-      1400,
-      800
-    ],
-    "Desktop  HD": [
-      1920,
-      1080
-    ]
-  }
+  "deno.enable": true,
+  "deno.unstable": true,
+  "deno.lint": true,
+  "deno.import_intellisense_origins": {
+    "http://deno.land": true,
+    "https://deno.land": true,
+    "responsive-preview": {
+      "Mobile": [
+        320,
+        675
+      ],
+      "Tablet": [
+        1024,
+        765
+      ],
+      "Desktop": [
+        1400,
+        800
+      ],
+      "Desktop  HD": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "git.ignoreLimitWarning": true
 }
