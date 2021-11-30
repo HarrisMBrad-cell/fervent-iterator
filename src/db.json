@@ -1,0 +1,33 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "snapple",
+      "cals": "90",
+      "servs": "1",
+      "units": "8oz."
+    },
+    {
+      "id": 2,
+      "name": "apple",
+      "cals": "88",
+      "servs": "1",
+      "units": "4oz."
+    },
+    {
+      "id": 3,
+      "name": "bannan",
+      "cals": "80",
+      "servs": "1",
+      "units": "5oz."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstname": "Sam",
+      "lastname": "Davies",
+      "email": "sam@acme.com"
+    }
+  ]
+}
