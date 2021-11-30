@@ -1,3 +1,4 @@
+import "./deno.js";
 import "./styles.css";
 
 export default function App() {
