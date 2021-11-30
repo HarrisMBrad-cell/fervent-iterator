@@ -20,3 +20,15 @@ console.log(mapIterator.next().value);
 for (const [key, value] of map) {
   console.log(`${key} and ${value}`)
 }
+
+const mySet = new Set();
+mySet.add('one');
+mySet.add('two');
+
+const setIterator = mySet[Symbol.iterator]();
+console.log(seIterator.next());
+console.log(setIterator.next());
+
+for (const value of mySet) {
+  console.log(value);
+}
