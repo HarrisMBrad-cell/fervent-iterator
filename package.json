@@ -1,17 +1,33 @@
 {
-  "name": "fervent-iterator",
+  "name": "react",
   "version": "1.0.0",
-  "description": "Basic w/o objects",
-  "keywords": [],
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
   "main": "src/index.js",
-  "development": "src/deno.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
   "scripts": {},
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarrisMBrad-cell/fervent-iterator.git"
+  },
+  "author": "Brad Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarrisMBrad-cell/fervent-iterator/issues"
+  },
+  "homepage": "https://github.com/HarrisMBrad-cell/fervent-iterator#readme"
 }
